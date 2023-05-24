@@ -16,11 +16,38 @@
 
 > The Social Network Icons component is a versatile and customizable React component that allows you to easily display social network icons in your application. It provides support for rendering icons in different sizes, shapes, and colors, making it flexible to fit various design requirements.
 
+## Available Social Icons
+
+Facebook,Apple, Behance, Discord, Dribble, Facebook Pixel, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom
+
 ## Install
 
 ```sh
 npm i react-custom-social-icons
 ```
+
+## Usage
+
+```
+import SocialIcon from 'react-custom-social-icons'
+
+<SocialIcon network="facebook" />
+```
+
+## Available props
+
+**styles** (object): An object containing CSS properties to apply custom styles to the icon.
+
+**size** (number|string): The size of the icon specified as a number in pixels or as one of the string values: "big" (64px), "medium" (48px), or "small" (32px).
+
+**shape** (number|string): The shape of the icon specified as either a number representing the border radius in pixels (default: 12) or as one of the string values: "square" (0), "rounded" (12), or "round" (50).
+
+**color** (string): The color of the icon's fill property. If not set, the icon will have default colors.
+
+**onClick** (function): A function that will be invoked when the icon is clicked.
+
+**network** (string, required): Specifies which social network icon to render. Possible options:
+'zoom'| 'discord' | 'facebook' | 'twitter' | 'instagram' | 'whatsapp' | 'vk' | 'linkedin' | 'vimeo' | 'youtube' | 'tumblr' | 'skype' | 'pinterest' | 'behance' | 'dribbble' | 'google-analytics' | 'facebook-pixel' | 'reddit' | 'messenger' | 'snapchat' | 'apple' | 'telegram' | 'google' | 'tiktok' | 'spotify' | 'trustpilot' | 'twitch' | 'google-meet' | 'google-maps' | 'gmail' | 'soundcloud' | 'patreon' | 'tinder' | 'google-calendar';
 
 ## Author
 
@@ -38,7 +65,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2023 [Oleg Tabachnikow](https://github.com/olegtabachnikow).<br />
 This project is [MIT](https://github.com/olegtabachnikow/react-custom-social-icons/blob/master/LICENSE) licensed.
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
