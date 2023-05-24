@@ -46,7 +46,7 @@ const App: FC = () => {
   };
   return (
     <div>
-      <SocialIcon network={network} size={80} shape='round' />
+      <SocialIcon network={network} size={80} />
       <select onChange={handleNetworkChange}>
         {options.map((el) => (
           <option key={el} value={el}>
