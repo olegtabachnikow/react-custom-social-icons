@@ -166,7 +166,7 @@ interface SocialIconProps {
   styles?: CSSProperties;
 }
 
-export const SocialIcon: FC<SocialIconProps> = ({
+const SocialIcon: FC<SocialIconProps> = ({
   network,
   size,
   shape,
@@ -213,3 +213,5 @@ export const SocialIcon: FC<SocialIconProps> = ({
     </div>
   );
 };
+
+export default SocialIcon;
