@@ -31,7 +31,7 @@ npm i react-custom-social-icons
 ## Usage
 
 ```
-import SocialIcon from 'react-custom-social-icons'
+import {SocialIcon} from 'react-custom-social-icons'
 
 <SocialIcon network="facebook" />
 ```
