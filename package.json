@@ -5,6 +5,7 @@
   "description": "The Social Network Icons component is a versatile and customizable React component that allows you to easily display social network icons in your application. It provides support for rendering icons in different sizes, shapes, and colors, making it flexible to fit various design requirements.",
   "version": "0.1.0",
   "license": "MIT",
+  "main": "index.js",
   "type": "module",
   "repository": {
     "type": "git",

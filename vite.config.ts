@@ -5,9 +5,9 @@ export default defineConfig({
   plugins: [react(), svgr()],
   build: {
     lib: {
-      entry: './main.js',
+      entry: './index.js',
       name: 'react-custom-social-icons',
-      fileName: 'main',
+      fileName: 'index',
     },
     rollupOptions: {
       external: ['react'],
