@@ -16,6 +16,8 @@
 
 > The Social Network Icons component is a versatile and customizable React component that allows you to easily display social network icons in your application. It provides support for rendering icons in different sizes, shapes, and colors, making it flexible to fit various design requirements.
 
+<img src="https://i.ibb.co/Fh5zc6G/Screenshot-2023-05-24-at-20-15-24.png" />
+
 ## Available Social Icons
 
 Facebook,Apple, Behance, Discord, Dribble, Facebook Pixel, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom

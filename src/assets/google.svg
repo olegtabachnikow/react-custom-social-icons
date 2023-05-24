@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="48px" height="48px" fill-rule="nonzero" fill="#FFFFFF">
-<rect
-width="48" height="48"
-fill="current"/>
 <g transform="translate(32,32) scale(0.75,0.75)">
-<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+<g fill="current" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
 <path d="M-42.66667,298.66667v-341.33333h341.33333v341.33333z" id="bgRectangle"></path>
 </g><g fill="current" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
 <path d="M42.66667,298.66667c-47.1283,0 -85.33333,-38.20503 -85.33333,-85.33333v-170.66667c0,-47.1283 38.20503,-85.33333 85.33333,-85.33333h170.66667c47.1283,0 85.33333,38.20503 85.33333,85.33333v170.66667c0,47.1283 -38.20503,85.33333 -85.33333,85.33333z" id="shape">
