@@ -33,46 +33,7 @@ import { ReactComponent as GoogleCalendar } from './assets/google-calendar.svg';
 import { ReactComponent as Dribbble } from './assets/dribbble.svg';
 import { ReactComponent as GoogleAnalytics } from './assets/googleAnalytics.svg';
 import { ReactComponent as FacebookPixel } from './assets/facebookPixel.svg';
-
-export type SocialIconSize = 'big' | 'medium' | 'small';
-
-export type SocialNetwork =
-  | 'zoom'
-  | 'discord'
-  | 'facebook'
-  | 'twitter'
-  | 'instagram'
-  | 'whatsapp'
-  | 'vk'
-  | 'linkedin'
-  | 'vimeo'
-  | 'youtube'
-  | 'tumblr'
-  | 'skype'
-  | 'pinterest'
-  | 'behance'
-  | 'dribbble'
-  | 'google-analytics'
-  | 'facebook-pixel'
-  | 'reddit'
-  | 'messenger'
-  | 'snapchat'
-  | 'apple'
-  | 'telegram'
-  | 'google'
-  | 'tiktok'
-  | 'spotify'
-  | 'trustpilot'
-  | 'twitch'
-  | 'google-meet'
-  | 'google-maps'
-  | 'gmail'
-  | 'soundcloud'
-  | 'patreon'
-  | 'tinder'
-  | 'google-calendar';
-
-export type Shapes = 'square' | 'round' | 'rounded';
+import { SocialNetwork, SocialIconSize, Shapes } from './types';
 
 const getSocialNetworkIcon = (
   social: SocialNetwork
