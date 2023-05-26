@@ -125,9 +125,10 @@ interface SocialIconProps {
   size?: SocialIconSize | number
   shape?: number | Shapes
   styles?: CSSProperties
+  simpleIcon?: boolean
 }
 
-const SocialIcon: FC<SocialIconProps> = ({ network, size, shape, color, onClick, styles }) => {
+const SocialIcon: FC<SocialIconProps> = ({ network, size, shape, color, onClick, styles, simpleIcon }) => {
   const RenderedIcon: React.FC<IconProps> | undefined = getSocialNetworkIcon(network)
 
   const handleClick: React.MouseEventHandler<HTMLDivElement> = (e) => {
@@ -154,7 +155,9 @@ const SocialIcon: FC<SocialIconProps> = ({ network, size, shape, color, onClick,
         ...styles,
       }}
     >
-      {RenderedIcon && <RenderedIcon width={computeSize(size)} height={computeSize(size)} color={color} />}
+      {RenderedIcon && (
+        <RenderedIcon simpleIcon={simpleIcon} width={computeSize(size)} height={computeSize(size)} color={color} />
+      )}
     </div>
   )
 }
