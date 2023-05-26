@@ -18,6 +18,10 @@
 
 <img src="https://i.ibb.co/Fh5zc6G/Screenshot-2023-05-24-at-20-15-24.png" />
 
+## Demo
+
+[link](https://olegtabachnikow.github.io/react-custom-social-icons-demo/)
+
 ## Available Social Icons
 
 Facebook, Apple, Behance, Discord, Dribbble, Facebook Pixel, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom
@@ -50,6 +54,8 @@ import {SocialIcon} from 'react-custom-social-icons'
 
 **network** (string, required): Specifies which social network icon to render. Possible options:
 'zoom'| 'discord' | 'facebook' | 'twitter' | 'instagram' | 'whatsapp' | 'vk' | 'linkedin' | 'vimeo' | 'youtube' | 'tumblr' | 'skype' | 'pinterest' | 'behance' | 'dribbble' | 'google-analytics' | 'facebook-pixel' | 'reddit' | 'messenger' | 'snapchat' | 'apple' | 'telegram' | 'google' | 'tiktok' | 'spotify' | 'trustpilot' | 'twitch' | 'google-meet' | 'google-maps' | 'gmail' | 'soundcloud' | 'patreon' | 'tinder' | 'google-calendar';
+
+**simpleIcon** (boolean): Set icon colorless (usable for google icons with specified fill);
 
 ## Author
 
