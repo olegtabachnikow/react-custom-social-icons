@@ -3,6 +3,7 @@ export interface IconProps {
   color?: string
   width?: number
   height?: number
+  simpleIcon?: boolean
 }
 export type SocialNetwork =
   | 'zoom'

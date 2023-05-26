@@ -11,7 +11,7 @@ const svgStyles: CSSProperties = {
   strokeMiterlimit: 4,
 }
 
-export const Trustpilot: FC<IconProps> = ({ width, height, color }) => {
+export const Trustpilot: FC<IconProps> = ({ width, height, color, simpleIcon }) => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
@@ -39,7 +39,7 @@ export const Trustpilot: FC<IconProps> = ({ width, height, color }) => {
         <g vectorEffect='non-scaling-stroke'>
           <g transform='matrix(3.12 0 0 3.12 0 0)'>
             <path
-              style={{ ...svgStyles, fill: 'rgb(0,182,122)', fillRule: 'nonzero', opacity: 1 }}
+              style={{ ...svgStyles, fill: simpleIcon ? '#ffffff' : 'rgb(0,182,122)', fillRule: 'nonzero', opacity: 1 }}
               vectorEffect='non-scaling-stroke'
               transform=' translate(-399.94, -380.5)'
               d='M 799.89 290.83 L 494.44 290.83 L 400.09 0 L 305.45 290.83 L 0 290.54 L 247.37 470.46000000000004 L 152.72 761 L 400.09000000000003 581.37 L 647.16 761 L 552.81 470.46 z'

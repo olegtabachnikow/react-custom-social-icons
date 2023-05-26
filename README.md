@@ -20,7 +20,7 @@
 
 ## Available Social Icons
 
-Facebook,Apple, Behance, Discord, Dribble, Facebook Pixel, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom
+Facebook, Apple, Behance, Discord, Dribbble, Facebook Pixel, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom
 
 ## Install
 
