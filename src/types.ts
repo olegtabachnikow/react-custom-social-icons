@@ -7,6 +7,7 @@ export interface IconProps {
 }
 export type SocialNetwork =
   | 'zoom'
+  | 'github'
   | 'discord'
   | 'facebook'
   | 'twitter'

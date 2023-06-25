@@ -24,7 +24,7 @@
 
 ## Available Social Icons
 
-Facebook, Apple, Behance, Discord, Dribbble, Facebook Pixel, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom
+Facebook, Apple, Behance, Discord, Dribbble, Facebook Pixel, Github, Gmail, Google Calendar, Google Maps, Google Meet, Google Analytics, Google, Instagram, LinkedIn, Messenger, Patreon, Pinterest, Reddit, Skype, Snapchat, Soundcloud, Spotify, Telegram, TikTok, Tinder, Trustpilot, Tumblr, Twitch, Twitter, Vimeo, WhatsApp, Vkontakte, Youtube, Zoom
 
 ## Install
 
@@ -53,7 +53,7 @@ import {SocialIcon} from 'react-custom-social-icons'
 **onClick** (function): A function that will be invoked when the icon is clicked.
 
 **network** (string, required): Specifies which social network icon to render. Possible options:
-'zoom'| 'discord' | 'facebook' | 'twitter' | 'instagram' | 'whatsapp' | 'vk' | 'linkedin' | 'vimeo' | 'youtube' | 'tumblr' | 'skype' | 'pinterest' | 'behance' | 'dribbble' | 'google-analytics' | 'facebook-pixel' | 'reddit' | 'messenger' | 'snapchat' | 'apple' | 'telegram' | 'google' | 'tiktok' | 'spotify' | 'trustpilot' | 'twitch' | 'google-meet' | 'google-maps' | 'gmail' | 'soundcloud' | 'patreon' | 'tinder' | 'google-calendar';
+'zoom'| 'discord' | 'github' | 'facebook' | 'twitter' | 'instagram' | 'whatsapp' | 'vk' | 'linkedin' | 'vimeo' | 'youtube' | 'tumblr' | 'skype' | 'pinterest' | 'behance' | 'dribbble' | 'google-analytics' | 'facebook-pixel' | 'reddit' | 'messenger' | 'snapchat' | 'apple' | 'telegram' | 'google' | 'tiktok' | 'spotify' | 'trustpilot' | 'twitch' | 'google-meet' | 'google-maps' | 'gmail' | 'soundcloud' | 'patreon' | 'tinder' | 'google-calendar';
 
 **simpleIcon** (boolean): Set icon colorless (usable for google icons with specified fill);
 

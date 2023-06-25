@@ -6,6 +6,7 @@ import { Discord } from './Discord'
 import { Dribbble } from './Dribbble'
 import { Facebook } from './Facebook'
 import { FacebookPixel } from './FacebookPixel'
+import { Github } from './Github'
 import { Gmail } from './Gmail'
 import { Google } from './Google'
 import { GoogleAnalytics } from './GoogleAnalytics'
@@ -49,6 +50,8 @@ const getSocialNetworkIcon = (social: SocialNetwork): React.FC<IconProps> | unde
       return Discord
     case 'twitch':
       return Twitch
+    case 'github':
+      return Github
     case 'google-maps':
       return GoogleMaps
     case 'whatsapp':
